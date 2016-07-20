@@ -1,0 +1,32 @@
+{
+  "name": "baking-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llanginger/baking-blog.git"
+  },
+  "author": "Leo Langinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/llanginger/baking-blog/issues"
+  },
+  "homepage": "https://github.com/llanginger/baking-blog#readme",
+  "dependencies": {
+    "httpdispatcher": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-sass": "^2.3.2",
+    "sass": "^0.5.0"
+  }
+}

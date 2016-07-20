@@ -1,0 +1,58 @@
+#body {
+  background: #D7CCC8; }
+
+.title-text {
+  color: white; }
+
+.header-img {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/boule.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .header-img:after {
+    content: "THE BOULE";
+    color: white;
+    font-size: 30px;
+    padding-top: 80px;
+    background-color: #ee3900;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 5px #2d1f1b;
+    border-radius: 2px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+
+.post-head {
+  height: 200px;
+  width: 100%;
+  background-color: #795548; }
+
+
+  .unslider-arrow.prev {
+    left: -50px;
+    right: auto;
+    transform: rotate(-180deg);
+  }
+
+  .unslider-arrow {
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    top: 50%;
+    margin-top: -16px;
+    overflow: hidden;
+    background: rgba(0,0,0,.2) no-repeat 50% 50%;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lE…e1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==");
+    background-size: 7px 11px;
+    border-radius: 32px;
+    /*text-indent: -999em;*/
+    opacity: .6;
+  }

@@ -1,0 +1,48 @@
+$primary-color-dark:   #5D4037
+$primary-color:        #795548
+$primary-color-light:  #D7CCC8
+$primary-color-text:   #FFFFFF
+$accent-color:         #448AFF
+$primary-text-color:   #212121
+$secondary-text-color: #727272
+$divider-color:        #B6B6B6
+
+
+
+#body
+  background: $primary-color-light
+
+.title-text
+  color: white
+
+.header-img
+  width: 100%
+  height: 100vh
+  background-image: url("/images/boule.jpg")
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  &:after
+    content: "THE BOULE"
+    color: white
+    font-size: 30px
+    padding-top: 80px
+    background-color: darken(#FF5722, 10%)
+    position: absolute
+    height: 200px
+    width: 300px
+    text-align: center
+    margin: auto
+    box-shadow: (5px 5px 5px darken($primary-color-dark, 15%))
+    border-radius: 2px
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+
+
+
+.post-head
+  height: 200px
+  width: 100%
+  background-color: $primary-color
